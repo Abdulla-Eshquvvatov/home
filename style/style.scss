@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+body {
+  background: #f2f0f0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
+  .contener {
+    max-width: 1440px;
+    width: 100%;
+    height: 800px;
+    .header {
+      max-width: 1440px;
+      width: 100%;
+      height: 534px;
+      display: flex;
+      .rom {
+        max-width: 840px;
+        width: 100%;
+        height: 534px;
+        background-image: url(/img/Bitmap.svg);
+        padding: 64px 0 0 64px;
+        .rom-text {
+          display: flex;
+          font-family: "League Spartan";
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 14.72px;
+          color: #ffffff;
+          gap: 56.28px;
+
+          .face {
+            display: none;
+          }
+          ul {
+            display: flex;
+            gap: 31px;
+            li {
+              list-style: none;
+              &:hover {
+                border-bottom: 1px solid black;
+              }
+              a {
+                color: #ffffff;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+      .shop {
+        max-width: 600px;
+        width: 100%;
+        height: 534px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        .arrows {
+          display: flex;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          img:hover {
+            opacity: 0.5;
+          }
+        }
+        .shop_text {
+          max-width: 400px;
+          width: 100%;
+          height: 261px;
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+          justify-content: center;
+
+          a {
+            display: flex;
+            max-width: 400px;
+            width: 100%;
+            height: 91px;
+            font-family: "League Spartan";
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 44.16px;
+            letter-spacing: -2px;
+          }
+          p {
+            font-family: "League Spartan";
+            font-size: 16px;
+            color: #a0a0a0;
+            max-width: 400px;
+            width: 100%;
+            height: 110px;
+            line-height: 22px;
+          }
+          img {
+            max-width: 232px;
+            width: 100%;
+            height: 16px;
+          }
+        }
+      }
+    }
+    .futter {
+      max-width: 1440px;
+      width: 100%;
+      height: 266px;
+      display: flex;
+      img {
+        max-width: 420px;
+        width: 100%;
+        height: 266px;
+      }
+      .futter_text {
+        max-width: 580px;
+        width: 100%;
+        height: 266px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 68px 48px;
+        h2 {
+          font-size: 16px;
+          font-family: "League Spartan";
+          font-weight: 700;
+          line-height: 22px;
+        }
+        p {
+          font-size: 16px;
+          font-family: "League Spartan";
+          font-weight: 500;
+          line-height: 22px;
+          color: #a0a0a0;
+        }
+      }
+      .img1 {
+        max-width: 440px;
+        width: 100%;
+        height: 266px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1220px) {
+  .wrap {
+    margin: 0 auto;
+    max-width: 375px;
+    width: 100%;
+    .contener {
+      max-width: 375px;
+      width: 100%;
+      height: 1538px;
+      margin: 0 auto;
+      .header {
+        max-width: 1440px;
+        width: 100%;
+        height: 818px;
+        display: flex;
+        flex-direction: column;
+        .rom {
+          max-width: 375px;
+          width: 100%;
+          height: 360px;
+          background-image: url(/img/Group\ 3.svg);
+          .rom-text {
+            max-width: 194px;
+            width: 100%;
+            height: 14px;
+            gap: 113px;
+            ul {
+              display: none;
+            }
+          }
+        }
+        .shop {
+          max-width: 311px;
+          width: 100%;
+          height: 278px;
+          display: flex;
+          margin: 0 auto;
+          align-items: center;
+          justify-content: center;
+          .arrows {
+            height: 56px;
+            left: 231px;
+            top: -56px;
+          }
+          .shop_text {
+            display: none;
+            margin-top: 100px;
+            max-width: 400px;
+            width: 100%;
+            height: 278px;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            gap: 18px;
+            justify-content: center;
+            margin-top: 150px;
+
+            a {
+              display: flex;
+              max-width: 600px;
+              width: 100%;
+              height: 91px;
+              font-family: "League Spartan";
+              font-size: 35px;
+              font-weight: 600;
+              line-height: 44.16px;
+            }
+            p {
+              font-size: 16px;
+              max-width: 400px;
+              width: 100%;
+              height: 110px;
+              color: #a0a0a0;
+            }
+            img {
+              max-width: 232px;
+              width: 100%;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+      .futter {
+        max-width: 1440px;
+        width: 100%;
+        height: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 420px;
+          width: 100%;
+          height: 266px;
+        }
+        .futter_text {
+          padding: 0;
+          max-width: 311px;
+          width: 100%;
+          height: 303px;
+          display: flex;
+          flex-direction: column;
+          h2 {
+            max-width: 311px;
+            width: 100%;
+            height: 22px;
+            font-size: 16px;
+            font-family: "League Spartan";
+            font-weight: 700;
+            line-height: 22px;
+            text-align: center;
+          }
+          p {
+            max-width: 311px;
+            width: 100%;
+            height: 213px;
+            font-size: 16px;
+            font-family: "League Spartan";
+            font-weight: 500;
+            line-height: 22px;
+            color: #a0a0a0;
+          }
+        }
+        .img1 {
+          max-width: 375px;
+          width: 100%;
+          height: 227px;
+        }
+      }
+    }
+  }
+}
